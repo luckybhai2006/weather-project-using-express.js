@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{>headerLink}}
+</head>
+<body>
+   {{>nav}}
+   <!-- MAIN HEADER -->
+   <div class="container-fluid main_header">
+      <div class="row">
+         <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+               <div class="col-md-6 col-12 main_header_right">
+                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <img class="w-100 aboutImage" src="images/about.jpeg" alt="First slide">
+                        </div>     
+                     </div>
+                  </div>
+               </div>
+               <!-- left side div -->
+               <div class="col-md-6 col-12 main_header_left">
+                  <p><i>Welcome to ABOUT page....</i></p>
+                  <h1><font size="5px">I am <span class="weather"><u>LALIT PANDEY</u></span> College student and full-stack developer, passionate about leveraging technology for positive change. Constantly learning and growing, I thrive on challenges and strive for excellence. Let's connect and collaborate to create innovative solutions that make a difference. Join me on this journey of exploration and innovation in the world of technology!</font></h1>
+                  <a href="/weather">
+                     <button class="button-85" role="button">About Me</button>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- FOOTER -->
+   {{>footer}}
+</body>
+
+</html>
